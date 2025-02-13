@@ -17,3 +17,14 @@ React · JavaScript · GraphQL query language
 
 ### Generated PDF ###
 ![](generatedPDF/.png)
+
+
+## `npm start` ##
+
+Veuillez vous assurer que le port 3000 est disponible.
+
+
+## `npm run server` ##
+Veuillez vous assurer que le port 3001 est disponible.
+
+Ce port est réservé au serveur proxy.
