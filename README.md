@@ -12,11 +12,11 @@ React · JavaScript · GraphQL query language
 
 ### Search and result ###
 ![](images/welcome.png)
-![](search-result/.png)
+![](images/search-result/.png)
 ![](images/anime-details.png)
 
 ### Generated PDF ###
-![](generatedPDF/.png)
+![](images/generatedPDF/.png)
 
 
 ## `npm start` ##
