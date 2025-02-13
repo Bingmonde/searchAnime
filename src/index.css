@@ -1,0 +1,111 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@layer base {
+  html {
+    @apply bg-beige-900;
+    /*@apply bg-[url('assets/ai-generated-8331710_1280.png')] bg-cover bg-center h-screen;*/
+
+  }
+  input, select {
+    @apply p-2 m-2 rounded-md w-1/2;
+  }
+  option {
+    @apply p-2 m-2 bg-beige-900 rounded;
+  }
+  option:hover {
+    @apply bg-mindaro-400 text-licorice-600;
+  }
+
+  button {
+    @apply bg-mindaro-400 text-licorice-600 p-2 m-2 text-center rounded-md w-1/4 font-bold;
+  }
+  button:hover {
+    @apply bg-mindaro-300;
+  }
+
+  h1 {
+    @apply text-3xl font-bold text-center;
+  }
+  h2 {
+    @apply text-xl font-bold text-center my-3;
+  }
+  h3 {
+    @apply text-lg p-2;
+  }
+
+  h4 {
+    @apply text-base p-2 font-bold text-2xl;
+  }
+
+  h5 {
+    @apply text-base font-bold text-xl;
+  }
+
+  a {
+    @apply text-mindaro-300 font-bold;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .main-page {
+    @apply flex flex-col items-center justify-center w-full h-full;
+  }
+
+  .main-bg {
+    @apply w-2/3;
+  }
+
+  table {
+    @apply w-4/5 border-collapse mx-20 my-5 font-sans rounded-xl;
+    /*width: 100%;*/
+    /*border-collapse: collapse;*/
+    /*margin: 20px 0;*/
+    /*font-family: Arial, sans-serif;*/
+    /*font-size: 18px;*/
+  }
+  th {
+        @apply bg-mindaro-400 text-licorice-600 p-2 shadow-xl;
+        /*background-color: #4CAF50;*/
+        /*color: white;*/
+        /*padding: 10px;*/
+    }
+
+  td {
+      @apply bg-beige-900 text-licorice-600 p-2;
+      /*border: 1px solid #ddd;*/
+      /*padding: 8px;*/
+  }
+
+  tr {
+    @apply bg-beige-800 text-licorice-600;
+  }
+
+
+  tr:hover {
+    @apply bg-mindaro-400 text-licorice-600;
+  }
+
+
+}
+
+
+
